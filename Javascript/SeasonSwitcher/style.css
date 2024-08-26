@@ -1,0 +1,40 @@
+.img{
+    height: 80vh;
+    width: 80vw;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#images1{
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#images2{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+@media (max-width:768px){
+    #images1{
+        display: none;
+    }
+}
+
+@media (min-width:768px){
+    #images2{
+        display: none;
+    }
+}

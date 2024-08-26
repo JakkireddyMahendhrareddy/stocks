@@ -1,0 +1,22 @@
+#images1{
+   height: 60vh;
+   width: 60vw; 
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.like-icon{
+    height: 30vh;
+    width: 30vw;
+    margin-right: 20px;
+}
+.bulb{
+  height:6vh;
+  width: 10vw; 
+  border-radius: 10px; 
+}

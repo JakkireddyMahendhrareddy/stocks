@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        body{
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content:center;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            }
+    </style> 
+</head>
+<body>
+    <div style="background-color:white; height:100vh">
+        <img id="images1" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-winter-md-img.png" class="img"/>
+        <img id="images2" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/seasons-switcher-winter-xs-img.png" class="img"/>
+       
+            <div class="btns">
+                <button onclick="springButton()" id="springButton"class="bulb">Spring</button>
+                <button onclick="summerButton()" id="summerButton"  class="bulb">Summer</button>
+                <button onclick="autumnButton()" id="autumnButton"  class="bulb">Autumn</button>
+                <button onclick="winterButton()" id="winterButton"  class="bulb">winter</button>
+                
+            </div>   
+        
+         
+        <script src="dynamic.js"></script>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+
+    
+}
+#second{
+    height: 45vh;
+    width:20vw;
+    border-radius: 10px;
+    background-color:#4b5069 ;
+    padding-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.bulb{
+    
+color:white;width:25vw;height:10vh;font-size:30px; background-color:#1f1d41; border-radius: 20px;margin-bottom: 20px;
+border-width: 0px;
+}
+.light{
+
+    color:white;width:10vw;height:10vh;font-size:30px; border-radius: 50px;border-width: 0px;
+    margin-bottom: 30px;
+}

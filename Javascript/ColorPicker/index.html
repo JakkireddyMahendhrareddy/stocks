@@ -1,0 +1,37 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+    <style>
+        body{
+            margin:0px;
+            display: flex;
+            flex-direction: column;
+            |}
+    </style> 
+</head>
+<body>
+    <div style="background-color:#86d2f2; height:100vh">
+        <h1 style="color: black;font-size: 50px; padding: 30px; text-align:center;">Traffic Light</h1>
+        <div class="two">
+            <div class="btns">
+                <button onclick="stopButton()" id="stopButton"class="bulb">Stop</button>
+                <button onclick="readyButton()" id="readyButton"  class="bulb">Ready</button>
+                <button onclick="goButton()" id="goButton"  class="bulb">Go</button>
+             </div> 
+             <div id="second">
+                <button id="stopColor" class="light"></button>
+                <button id="readyColor" class="light"></button>
+                <button id="goColor" class="light"></button>
+             </div>   
+          </div>
+         
+        <script src="script.js"></script>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,60 @@
+body{
+  margin:0px;   
+}
+.articlehomepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    height: 100vh;
+    background-color: #225db0;
+    background-size: cover;
+
+
+}
+.main-heading{
+    color: white;
+    font-size:40px;
+    line-height: 1px;
+
+}
+.main-para{
+    
+    color: white;
+    font-size:20px;
+}
+.card{
+    height: 30vh;
+    width: 40vw;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.techimg{
+  height: 9vh;
+  width: 9vw;   
+}
+.arrange-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.tech-card{
+    height: 10vh;
+    width:80vw;
+    margin: 30px;
+
+}
+.tech-background{
+    background-color: #225db0;
+    height: 120vh;
+    background-size: cover;
+}
